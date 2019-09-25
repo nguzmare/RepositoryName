@@ -14,6 +14,8 @@
 			<groupId>com.everis</groupId>
 			<artifactId>com.everis.utom</artifactId>
 			<version>1.0</version>
+			<scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.everis.utom-1.0.jar</systemPath>
 		</dependency>
 		<dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -41,6 +43,8 @@
             <groupId>com.everis</groupId>
             <artifactId>com.everis.teslink.integration</artifactId>
             <version>1.0</version>
+            	<scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.everis.teslink.integration-1.0.jar</systemPath>
         </dependency>
 	</dependencies>
   
